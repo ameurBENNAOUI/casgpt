@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Our Cas Clinics</title>
+</head>
+<body>
+    <div id="data"></div>
+
+    <script>
+        // Assuming the data.json is located at the same directory level
+        fetch('data.json')
+        .then(response => response.json())
+        .then(data => {
+            var dataDiv = document.getElementById('data');
+
+            // Iterate over each object in data array
+            data.forEach(item => {
+                // Create new anchor element
+                var a = document.createElement('a');
+
+                // Set href to the url from the item
+                a.href = item.url;
+
+                // Set the anchor text to the name from the item
+                a.innerHTML = item.name;
+
+                // Append the new anchor element to the data div
+                dataDiv.appendChild(a);
+
+                // Add a line break for the next item
+                dataDiv.appendChild(document.createElement('br'));
+            });
+        });
+    </script>
+</body>
+</html>
