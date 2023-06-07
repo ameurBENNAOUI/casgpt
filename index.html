@@ -13,17 +13,24 @@
     height: 100vh; /* This gives the grid div a height of 100% of the viewport height */
 }
 
-        .grid-item {
+.grid-item {
     flex: 1 0 18.75rem;
-    height: 30%; /* This sets each grid-item div to 30% of the height of the grid div */
+    height: 30%;
     margin: 0.3125rem;
     padding: 0.625rem;
     border: 0.0625rem solid #ddd;
-    border-radius: 0.3125rem;
-    background: #f9f9f9;
-    box-shadow: 0 0.3125rem 0.625rem rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem; /* Increased border radius for a more modern look */
+    background: #e0e0e0; /* More modern light grey color */
+    box-shadow: 0 0.3125rem 0.625rem rgba(0, 0, 0, 0.05); /* Lighter box shadow for a smoother look */
     transition: all 0.3s ease;
+    text-align: center; /* Center the text */
+    font-size: 1.2rem; /* Increase the font size */
+    cursor: pointer; /* Change the cursor on hover to indicate clickability */
+    display: flex; /* To center the content vertically */
+    align-items: center; /* Align the content vertically in the center */
+    justify-content: center; /* Align the content horizontally in the center */
 }
+
 
     .grid-item:hover {
         transform: scale(1.02); /* Slightly scale the item on hover */
@@ -139,25 +146,31 @@
         }
 
         fetch('data.json')
-        .then(response => response.json())
-        .then(data => {
-            var dataDiv = document.getElementById('data');
+    .then(response => response.json())
+    .then(data => {
+        var dataDiv = document.getElementById('data');
 
-            data.forEach(item => {
-                var div = document.createElement('div');
-                div.className = 'grid-item';
+        data.forEach(item => {
+            var div = document.createElement('div');
+            div.className = 'grid-item';
 
-                var a = document.createElement('a');
+            var a = document.createElement('a');
 
-                a.href = item.url;
+            a.href = item.url;
+            a.innerHTML = item.name;
+            a.style.textDecoration = 'none'; /* Remove the underline of the link */
+            a.style.color = 'black'; /* Set the text color to black */
 
-                a.innerHTML = item.name;
+            div.appendChild(a);
 
-                div.appendChild(a);
-
-                dataDiv.appendChild(div);
+            div.addEventListener('click', function() {
+                window.location.href = item.url; /* Go to the URL on click */
             });
+
+            dataDiv.appendChild(div);
         });
+    });
+
     </script>
 </body>
 </html>
