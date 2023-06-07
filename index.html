@@ -12,19 +12,26 @@
             justify-content: space-around;
         }
         .grid-item {
-            flex: 1 0 18.75rem; /* 30% of 62.5rem */
-            margin: 0.3125rem; /* 5px */
-            padding: 0.625rem; /* 10px */
-            border: 0.0625rem solid #ddd; /* 1px */
-            border-radius: 0.3125rem; /* 5px */
-        }
+        flex: 1 0 18.75rem;
+        margin: 0.3125rem;
+        padding: 0.625rem;
+        border: 0.0625rem solid #ddd;
+        border-radius: 0.3125rem;
+        background: #f9f9f9; /* Light grey background */
+        box-shadow: 0 0.3125rem 0.625rem rgba(0, 0, 0, 0.1); /* Box shadow for 3D effect */
+        transition: all 0.3s ease; /* Transition for hover effect */
+    }
 
+    .grid-item:hover {
+        transform: scale(1.02); /* Slightly scale the item on hover */
+        box-shadow: 0 0.625rem 1.25rem rgba(0, 0, 0, 0.15); /* Increase box shadow on hover */
+    }
         /* Mobile screen - two items per row */
         @media screen and (max-width: 40rem) { /* 640px */
-            .grid-item {
-                flex: 1 0 46%; /* Roughly half width minus margins */
-            }
-        }
+    .grid-item {
+        flex: 1 0 18%; /* Roughly 20% width minus margins */
+    }
+}
 
         /* Modal Styles */
         .modal {
@@ -40,6 +47,8 @@
         }
 
         .modal-content {
+            direction: rtl;
+
             background-color: #ff0000;
             margin: 15% auto;
             padding: 1rem;
@@ -86,12 +95,15 @@
     <!-- The Modal -->
     <div id="myModal" class="modal">
 
+ 
+
         <!-- Modal content -->
-        <div class="modal-content">
-            <span class="close">&times;</span>
-            <p>Red Alert Message: Here is an important message.</p>
-            <button onclick="closeModal()">Ok, I Understand</button>
-        </div>
+<div class="modal-content">
+    <span class="close">&times;</span>
+    <p>جميع الحالات السريرية في هذه الصفحة تم إعدادها باستخدام نموذج GPT-4 للمستخدمين المميزين فقط. إذا كان لديك حساب مجاني، ستحصل على أداء أقل بنسبة 3.5.</p>
+    <button onclick="closeModal()">حسنًا، أنا أفهم</button>
+</div>
+
 
     </div>
 
