@@ -1,247 +1,63 @@
 [
     {
         "name": "cas 1",
-        "url": "url",
+        "url": "https://chat.openai.com/share/6433e8cf-c9b3-462e-949f-7e194906cdbf",
         "service": "O/e"
     },
     {
+        
         "name": "cas 2",
-        "url": "url",
+        "url": "https://chat.openai.com/share/28f5ad91-7fc7-4aa4-a209-1a7bdd219d20",
         "service": "Oce"
     },
     {
         "name": "cas 3",
-        "url": "url",
+        "url": "https://chat.openai.com/share/7ed61926-3fd8-4602-a1c9-3f3aa82dd475",
         "service": "Oce"
     },
     {
         "name": "cas 4",
-        "url": "url",
+        "url": "https://chat.openai.com/share/91cbf09a-8399-4919-8001-8e88c6eb7196",
         "service": "Oce"
     },
     {
         "name": "cas 5",
-        "url": "url",
+        "url": "https://chat.openai.com/share/37800c4c-7595-4873-b50e-a4d32a01d9a8",
         "service": "Oce"
     },
     {
         "name": "cas 6",
-        "url": "url",
+        "url": "https://chat.openai.com/share/1e238ee3-9fc1-4a9e-9ab3-b1a558c90301",
         "service": "Oce"
     },
     {
         "name": "cas 7",
-        "url": "url",
+        "url": "https://chat.openai.com/share/7cf08285-3538-4ee0-9aea-3134f5b7af91",
         "service": "Oce"
     },
     {
         "name": "cas 8",
-        "url": "url",
+        "url": "https://chat.openai.com/share/e279ce94-ec60-4e37-95b4-d49999c0a73f",
         "service": "Oce"
     },
     {
         "name": "cas 9",
-        "url": "url",
+        "url": "https://chat.openai.com/share/1e238ee3-9fc1-4a9e-9ab3-b1a558c90301",
         "service": "Oce"
     },
     {
         "name": "cas 10",
-        "url": "url",
+        "url": "https://chat.openai.com/share/b8892f18-e67a-41c3-9e6d-54a1fc7be518",
         "service": "Oce"
     },
     {
         "name": "cas 11",
-        "url": "url",
+        "url": "https://chat.openai.com/share/7cc257e8-dc81-4ca8-accf-2668228a4898",
         "service": "Oce"
     },
     {
         "name": "cas 12",
-        "url": "url",
-        "service": "Oce"
-    },
-    {
-        "name": "cas 13",
-        "url": "url",
-        "service": "Oce"
-    },
-    {
-        "name": "cas 14",
-        "url": "url",
-        "service": "Oce"
-    },
-    {
-        "name": "cas 15",
-        "url": "url",
-        "service": "Oce"
-    },
-    {
-        "name": "cas 16",
-        "url": "url",
-        "service": "Oce"
-    },
-    {
-        "name": "cas 17",
-        "url": "url",
-        "service": "Oce"
-    },
-    {
-        "name": "cas 18",
-        "url": "url",
-        "service": "Oce"
-    },
-    {
-        "name": "cas 19",
-        "url": "url",
-        "service": "Oce"
-    },
-    {
-        "name": "cas 20",
-        "url": "url",
-        "service": "Oce"
-    },
-    {
-        "name": "cas 21",
-        "url": "url",
-        "service": "Oce"
-    },
-    {
-        "name": "cas 22",
-        "url": "url",
-        "service": "Oce"
-    },
-    {
-        "name": "cas 23",
-        "url": "url",
-        "service": "Oce"
-    },
-    {
-        "name": "cas 24",
-        "url": "url",
-        "service": "Oce"
-    },
-    {
-        "name": "cas 25",
-        "url": "url",
-        "service": "Oce"
-    },
-    {
-        "name": "cas 26",
-        "url": "url",
-        "service": "Oce"
-    },
-    {
-        "name": "cas 27",
-        "url": "url",
-        "service": "Oce"
-    },
-    {
-        "name": "cas 28",
-        "url": "url",
-        "service": "Oce"
-    },
-    {
-        "name": "cas 29",
-        "url": "url",
-        "service": "Oce"
-    },
-    {
-        "name": "cas 30",
-        "url": "url",
-        "service": "Oce"
-    },
-    {
-        "name": "cas 31",
-        "url": "url",
-        "service": "Oce"
-    },
-    {
-        "name": "cas 32",
-        "url": "url",
-        "service": "Oce"
-    },
-    {
-        "name": "cas 33",
-        "url": "url",
-        "service": "Oce"
-    },
-    {
-        "name": "cas 34",
-        "url": "url",
-        "service": "Oce"
-    },
-    {
-        "name": "cas 35",
-        "url": "url",
-        "service": "Oce"
-    },
-    {
-        "name": "cas 36",
-        "url": "url",
-        "service": "Oce"
-    },
-    {
-        "name": "cas 37",
-        "url": "url",
-        "service": "Oce"
-    },
-    {
-        "name": "cas 38",
-        "url": "url",
-        "service": "Oce"
-    },
-    {
-        "name": "cas 39",
-        "url": "url",
-        "service": "Oce"
-    },
-    {
-        "name": "cas 40",
-        "url": "url",
-        "service": "Oce"
-    },
-    {
-        "name": "cas 41",
-        "url": "url",
-        "service": "Oce"
-    },
-    {
-        "name": "cas 42",
-        "url": "url",
-        "service": "Oce"
-    },
-    {
-        "name": "cas 43",
-        "url": "url",
-        "service": "Oce"
-    },
-    {
-        "name": "cas 44",
-        "url": "url",
-        "service": "Oce"
-    },
-    {
-        "name": "cas 45",
-        "url": "url",
-        "service": "Oce"
-    },
-    {
-        "name": "cas 46",
-        "url": "url",
-        "service": "Oce"
-    },
-    {
-        "name": "cas 47",
-        "url": "url",
-        "service": "Oce"
-    },
-    {
-        "name": "cas 48",
-        "url": "url",
-        "service": "Oce"
-    },
-    {
-        "name": "cas 49",
-        "url": "url",
+        "url": "https://chat.openai.com/share/615e44ce-32bd-49ba-b6e0-5890662362b5",
         "service": "Oce"
     }
 ]
