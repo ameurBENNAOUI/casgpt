@@ -7,20 +7,23 @@
             font-size: 16px; /* Define base font size */
         }
         .grid {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-around;
-        }
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 100vh; /* This gives the grid div a height of 100% of the viewport height */
+}
+
         .grid-item {
-        flex: 1 0 18.75rem;
-        margin: 0.3125rem;
-        padding: 0.625rem;
-        border: 0.0625rem solid #ddd;
-        border-radius: 0.3125rem;
-        background: #f9f9f9; /* Light grey background */
-        box-shadow: 0 0.3125rem 0.625rem rgba(0, 0, 0, 0.1); /* Box shadow for 3D effect */
-        transition: all 0.3s ease; /* Transition for hover effect */
-    }
+    flex: 1 0 18.75rem;
+    height: 30%; /* This sets each grid-item div to 30% of the height of the grid div */
+    margin: 0.3125rem;
+    padding: 0.625rem;
+    border: 0.0625rem solid #ddd;
+    border-radius: 0.3125rem;
+    background: #f9f9f9;
+    box-shadow: 0 0.3125rem 0.625rem rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
 
     .grid-item:hover {
         transform: scale(1.02); /* Slightly scale the item on hover */
